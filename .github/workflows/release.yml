@@ -1,4 +1,6 @@
-on: push 
+on: 
+  push:
+    branches: [ master ]
 jobs:
   release-linux-amd64:
     name: release linux/amd64
