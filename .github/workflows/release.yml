@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: wangyoucao577/go-release-action@v1.11
       with:
-        github_token: ${{ secrets.publish_key }}
+        github_token: ${{ secrets.PUBLISH_KEY}}
         goos: linux
         goarch: amd64
         release_tag: beta
