@@ -12,3 +12,4 @@ jobs:
         github_token: ${{ secrets.publish_key}}
         goos: linux
         goarch: amd64
+        release_tag: beta
